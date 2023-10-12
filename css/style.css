@@ -1,0 +1,7 @@
+/* Estilos Assets */
+@import './assets/utilidades/componentes.css';
+/* Estilos Globais */
+@import './global/global.css';
+
+/* Estilos Home */
+@import './home/header.css';
