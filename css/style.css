@@ -1,7 +1,11 @@
-/* Estilos Assets */
+/* Estilos Assets Utilidades*/
 @import './assets/utilidades/componentes.css';
 @import './assets/utilidades/tipografia.css';
 @import './assets/utilidades/cores.css';
+
+/* Estilos Assets Botoes */
+@import './assets/botoes/botao-global.css';
+
 /* Estilos Globais */
 @import './global/global.css';
 
