@@ -3,6 +3,8 @@
     justify-content: space-between;
     align-items: center;
     padding-top:30px;
+    padding-bottom: 30px;
+    background: var(--cor-2);
 }
 
 .header-menu{
