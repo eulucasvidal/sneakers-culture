@@ -2,10 +2,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top:30px;
 }
 
 .header-menu{
     display: flex;
     align-items: center;
+    text-transform: uppercase;
     gap: 35px;
 }
