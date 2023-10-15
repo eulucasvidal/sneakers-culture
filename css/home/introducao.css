@@ -9,17 +9,11 @@
 .introducao-conteudo{
     display: grid;
     gap: 30px;
-    position: absolute;
-    z-index: 100;
 }
 .introducao-conteudo p{
     max-width: 40ch;
 }
-.introducao-img{
-    width: 700px;
-    left: 60%;
-    position: relative;
-}
+
 .titulo{
     text-transform: uppercase;
     max-width: 8ch;
@@ -28,4 +22,9 @@
 .social-midia{
     display: flex;
     gap: 30px;
+}
+@media(max-width:1000px){
+    .introducao{
+        grid-template-columns: 1fr;
+    }
 }
