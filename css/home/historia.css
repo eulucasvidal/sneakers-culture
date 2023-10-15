@@ -1,0 +1,14 @@
+.historia-bg{
+    background: var(--cor-4);
+}
+.historia-conteudo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+.subtitulo{
+    text-transform: uppercase;
+    max-width: 16ch;
+}
