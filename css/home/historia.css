@@ -1,14 +1,41 @@
-.historia-bg{
-    background: var(--cor-4);
+.historia-bg {
+  background: var(--cor-4);
+  box-shadow: inset 0px -120px #ffffff;
 }
-.historia-conteudo{
+
+.historia-slide {
+  background: var(--cor-3);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.titulo-historia {
+  font: 700 4rem/1.2 "Oswald", sans-serif;
+  text-transform: uppercase;
+  max-width: 14ch;
+}
+.historia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.historia-conteudo {
+  display: grid;
+  gap: 50px;
+}
+.historia-conteudo div {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    gap: 200px;
+    gap: 10px;
 }
-.subtitulo{
-    text-transform: uppercase;
-    max-width: 16ch;
+@media(max-width:1100px){
+    .historia-bg{
+        box-shadow: none;
+    }
+    .historia{
+        grid-template-columns: 1fr;
+    }
 }

@@ -4,31 +4,31 @@
 }
 .font-1-s,
 .font-1-sb{
-    font: 400 1rem/1 'Open Sans', sans-serif; 
+    font: 400 1rem/1.2 'Open Sans', sans-serif; 
 }
 .font-1-sb{
     font-weight: 600;
 }
 .font-1-m{
-    font: 400 1.125rem/1 'Open Sans', sans-serif; 
+    font: 400 1.125rem/1.2 'Open Sans', sans-serif; 
 }
 .font-1-lb{
-    font: 600 1.25rem/1 'Open Sans', sans-serif; 
+    font: 600 1.25rem/1.2 'Open Sans', sans-serif; 
 }
 /*Familia de fonte Oswald */
 .font-2-xsb{
-    font: 700 2rem/1 'Oswald', sans-serif;
+    font: 700 2rem/1.2 'Oswald', sans-serif;
 }
 .font-2-sb{
-    font: 700 2.25rem/1 'Oswald', sans-serif;
+    font: 700 2.25rem/1.2 'Oswald', sans-serif;
 }
 .font-2-mb{
-    font: 700 4rem/1 'Oswald', sans-serif;
+    font: 700 4rem/1.2 'Oswald', sans-serif;
 }
 .font-2-xlb{
-    font: 700 8rem/1 'Oswald', sans-serif;
+    font: 700 8rem/1.2 'Oswald', sans-serif;
 }
 /*Familia de fonte Kodchasan */
 .font-3-xsb{
-    font: 700 1.25rem/1 'Kodchasan', sans-serif;
+    font: 700 1.25rem/1.2 'Kodchasan', sans-serif;
 }
