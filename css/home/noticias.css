@@ -19,3 +19,7 @@
     padding-bottom: 30px;
     gap: 30px;
 }
+.noticias-conteudo{
+  display: grid;
+  gap: 30px;
+}
