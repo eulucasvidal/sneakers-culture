@@ -3,12 +3,7 @@
   box-shadow: inset 0px -120px #ffffff;
 }
 
-.historia-slide {
-  background: var(--cor-3);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 .titulo-historia {
   font: 700 4rem/1.2 "Oswald", sans-serif;
   text-transform: uppercase;
