@@ -10,6 +10,10 @@
 .membros-conteudo{
     background: var(--cor-4);
     color: var(--cor-2);
+    padding: 20px 50px;
+    border-radius: 10px;
+    display: grid;
+    gap: 30px;
 }
 
 .membros-pessoa{
@@ -18,4 +22,9 @@
     align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
+}
+.membros-social-midia{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;
 }
