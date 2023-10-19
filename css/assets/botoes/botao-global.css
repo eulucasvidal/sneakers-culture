@@ -3,7 +3,11 @@
      text-transform: uppercase;
      padding: 10px 20px;
      border: none;
-     background: var(--cor-3);
+     background:linear-gradient(#BE0007, #99151A);
      color: var(--cor-2);
      cursor: pointer;
+}
+
+.btn-1:hover{
+     background: linear-gradient(#BE0007, #750409);
 }
