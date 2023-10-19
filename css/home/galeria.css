@@ -1,0 +1,7 @@
+.galeria{
+    background-image: url(../../img/img-galeria/background-galeria.png);
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
