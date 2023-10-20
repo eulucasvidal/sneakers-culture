@@ -1,0 +1,40 @@
+.formulario{
+    display: grid;
+    padding-top: 100px;
+    gap: 60px;
+    padding-bottom: 200px;
+    max-width: 1160px;
+}
+.formulario span{
+    text-transform: uppercase;
+}
+.formulario-conteudo{
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    gap:30px;
+}
+.form-itens{
+    background: var(--cor-1);
+    border: none;
+    padding: 30px;
+    color: #7C7C7C;
+    font: 600 1rem/1.2 'Open Sans', sans-serif;
+    cursor: pointer;
+}
+textarea{
+    min-height: 300px;
+}
+.btn-form{
+    background: var(--cor-4);
+    padding: 30px;
+    color: var(--cor-2);
+    font: 600 1rem/1.2 'Open Sans', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+
+.btn-form:hover{
+    background: var(--cor-3);
+}

@@ -13,12 +13,6 @@
 .introducao-conteudo p{
     max-width: 40ch;
 }
-
-.titulo{
-    text-transform: uppercase;
-    max-width: 8ch;
-    z-index: 100;
-}
 .social-midia{
     display: flex;
     gap: 30px;

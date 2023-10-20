@@ -15,6 +15,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+.titulo{
+    text-transform: uppercase;
+    max-width: 9ch;
+    z-index: 100;
+}
 .logo-slide {
   background: var(--cor-3);
   display: flex;

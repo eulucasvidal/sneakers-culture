@@ -22,6 +22,7 @@
     height: 100%;
     display: block;
     transition: 0.5s;
+    cursor: pointer;
 }
 .imgGaleria:hover{
     transform: scale(1.2);
