@@ -1,0 +1,19 @@
+.midias-sociais-bg {
+  background: var(--cor-3);
+}
+
+.midias-sociais-conteudo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.midias-sociais-itens {
+  display: flex;
+  gap: 30px;
+}
+.midias-sociais-conteudo p{
+    text-transform: uppercase;
+    color: var(--cor-2);
+}
