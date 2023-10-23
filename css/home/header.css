@@ -1,15 +1,34 @@
 .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top:30px;
-    padding-bottom: 30px;
-    background: var(--cor-2);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: var(--cor-2);
 }
-
 .header-menu{
-    display: flex;
-    align-items: center;
-    text-transform: uppercase;
-    gap: 35px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-transform: uppercase;
+  gap: 35px;
+}
+.header-menu a{
+  padding: 5px 10px;
+  position: relative;
+}
+.header-menu a::after {
+    content: '';
+    height: 2px;
+    width: 0%;
+    background-color: var(--cor-3);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s ease-in-out;
+}
+.header-menu a:hover::after,
+.header-menu a:hover{
+    width: 100%;
+    color: var(--cor-3);
 }
