@@ -1,4 +1,4 @@
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,48 +6,64 @@
   padding-bottom: 30px;
   background: var(--cor-2);
 }
-.header-menu{
+.header-menu {
   display: flex;
   align-items: center;
   justify-items: center;
   text-transform: uppercase;
   gap: 35px;
 }
-.header-menu a{
+.header-menu a {
   padding: 5px 10px;
   position: relative;
 }
 .header-menu a::after {
-    content: '';
-    height: 2px;
-    width: 0%;
-    background-color: var(--cor-3);
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    transition: 0.5s ease-in-out;
+  content: "";
+  height: 2px;
+  width: 0%;
+  background-color: var(--cor-3);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.5s ease-in-out;
 }
 .header-menu a:hover::after,
-.header-menu a:hover{
-    width: 100%;
-    color: var(--cor-3);
-}
-[data-menu="button"]{
-  font: 600 1rem/1.2 'Open Sans', sans-serif; 
-  text-transform: uppercase;
-  background: none;
-  padding: 2px 10px;
-  border: none;
-  cursor: pointer;
-  position: relative;
+.header-menu a:hover {
+  width: 100%;
+  color: var(--cor-3);
 }
 
-[data-menu="button"]::after{
-  content: '';
-  height: 2px;
-  width: 12px;
-  background: currentColor;
-  position: absolute;
-  right: -10%;
-  bottom: 50%;
+[data-menu="button"] {
+  display: none;
+}
+
+@media (max-width: 1000px) {
+  [data-menu="button"] {
+    display: flex;
+    font: 600 1rem/1.2 "Open Sans", sans-serif;
+    text-transform: uppercase;
+    background: none;
+    padding: 2px 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+
+  [data-menu="button"]::after {
+    content: "";
+    height: 2px;
+    width: 12px;
+    background: currentColor;
+    position: absolute;
+    right: -10%;
+    bottom: 50%;
+  }
+  .header-menu {
+    display: none;
+  }
+
+  [data-menu="suave"].ativo .header-menu{
+    display: flex;
+    flex-direction: column;
+  }
 }
