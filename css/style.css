@@ -5,6 +5,7 @@
 
 /* Estilos Assets Botoes */
 @import './assets/botoes/botao-global.css';
+@import './assets/botoes/botao-mobile.css';
 
 /* Estilos Globais */
 @import './global/global.css';
