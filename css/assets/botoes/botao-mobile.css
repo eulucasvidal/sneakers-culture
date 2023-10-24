@@ -6,6 +6,7 @@
   background: none;
   cursor: pointer;
   justify-content: center;
+  color: var(--cor-4);
 }
 @media(max-width:1000px){
   .js [data-menu="button"]{
