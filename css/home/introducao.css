@@ -21,4 +21,13 @@
     .introducao{
         grid-template-columns: 1fr;
     }
+
+}
+@media(max-width:600px){
+        .introducao-conteudo h1{
+        font-size: 5rem;
+    }
+    .introducao-img{
+        display: none;
+    }
 }
