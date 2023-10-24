@@ -29,3 +29,9 @@
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
 }
+
+@media(max-width:1000px){
+    .membros{
+        grid-template-columns: 1fr;
+    }
+}

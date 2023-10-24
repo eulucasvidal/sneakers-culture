@@ -1,23 +1,31 @@
+/*Configurações base do header */
+.header-bg {
+  background: var(--cor-2);
+}
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background: var(--cor-2);
+  height: 100px;
 }
-.header-menu {
+
+/*Configurações base do menu */
+
+[data-menu="list"] {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  justify-items: center;
   text-transform: uppercase;
-  gap: 35px;
+  gap: 30px;
 }
-.header-menu a {
-  padding: 5px 10px;
+/*Configurações base dos links do menu */
+
+[data-menu="list"] a {
+  padding: 5px;
   position: relative;
 }
-.header-menu a::after {
+/*Configurações base dos hover dos links */
+[data-menu="list"] a::after {
   content: "";
   height: 2px;
   width: 0%;
@@ -27,14 +35,33 @@
   left: 0;
   transition: 0.5s ease-in-out;
 }
-.header-menu a:hover::after,
-.header-menu a:hover {
+[data-menu="list"] a:hover::after,
+[data-menu="list"] a:hover {
   width: 100%;
   color: var(--cor-3);
 }
 
+
 @media (max-width: 1000px) {
-  .header-menu {
+  .js [data-menu="list"] {
     display: none;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    right: 0px;
+    height: max-content;
+    padding: 30px;
+    background: var(--cor-2);
+    z-index: 1000;
+    text-align: center;
+
+  }
+  .js [data-menu="list"] a{
+    display: grid;
+    font: 700 5rem/1.2 'Oswald', sans-serif;
+    padding: 30px 0px;
+  }
+  .js [data-menu="suave"].ativo [data-menu="list"] {
+    display: block;
   }
 }
